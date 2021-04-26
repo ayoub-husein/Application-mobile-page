@@ -1,0 +1,525 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body {
+    font-family: ar-font;
+    direction: rtl;
+}
+
+section.banner {
+    background-image: url(../images/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -3;
+    position: relative;
+}
+
+section.banner .overlay {
+    background-color: rgba(239, 71, 58, 0.9);
+    position: relative;
+    padding-top: 196px;
+    z-index: -2;
+}
+
+section.banner .overlay .section-2 {
+    top: -112px;
+}
+
+section.banner .overlay .images {
+    position: absolute;
+    bottom: -138px;
+    z-index: -1;
+}
+
+section.banner .overlay .app-icon {
+    margin: 120px 0px 50px 0;
+}
+
+section.banner .overlay .banner-text h1 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+section.banner .overlay .banner-text p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+section.banner .overlay .banner-text button {
+    background-color: #fafafa;
+    margin-top: 40px;
+    line-height: 10px;
+    border-radius: 10px;
+}
+
+section.banner .overlay .banner-text button img {
+    width: 50px;
+    padding-bottom: 31px;
+}
+
+section.banner .overlay .banner-text button i, section.banner .overlay .banner-text button svg {
+    font-size: 50px;
+    margin-bottom: 7px;
+}
+
+section.banner .overlay .banner-text button p {
+    color: #232323;
+    font-size: 14px;
+    line-height: 35px;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: ar-font;
+}
+
+section.banner .overlay .banner-text button p span {
+    font-family: ar-font;
+    font-size: 19px;
+}
+
+section.banner .overlay .banner-text button.first-button {
+    height: 90px;
+    width: 220px;
+}
+
+section.banner .overlay .banner-text button:last-child {
+    margin-right: 20px;
+    height: 90px;
+    width: 220px;
+}
+
+section.features {
+    padding: 80px 90px;
+    background-color: #ffffff;
+}
+
+section.features .featur {
+    padding-top: 90px;
+}
+
+section.features .featur .media {
+    margin-bottom: 65px;
+}
+
+section.features .featur .media .media-body h5 {
+    color: #080808;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+section.features .featur .media .media-body p {
+    font-size: 15px;
+    color: #757474;
+}
+
+section.features .featur .media i, section.features .featur .media svg {
+    height: 70px;
+    width: 70px;
+    background-color: #ef473a;
+    color: #ffffff;
+    line-height: 70px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 25px;
+    margin-right: 30px;
+}
+
+section.features .featur .media .icon-2 {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+section.features .mobile-image {
+    width: 66%;
+    margin: 30px auto;
+    display: block;
+}
+
+section.option {
+    background-color: #f9f8f8;
+    position: relative;
+}
+
+section.option .options {
+    margin: 120px -15px 0 0;
+}
+
+section.option .media .media-body h5 {
+    color: #141414;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+section.option .media .media-body p {
+    font-size: 15px;
+    color: #757474;
+    margin-bottom: 15px;
+}
+
+section.option .options img {
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+section.option .options {
+    padding-right: 0;
+}
+
+section.option .image {
+    margin-top: 0;
+}
+
+section.option .image img {
+    margin-top: 30px;
+    position: absolute;
+    bottom: -116px;
+    right: 0;
+}
+
+section.option .collman {
+    padding-left: 10px;
+}
+
+section.slider {
+    background-color: #ffffff;
+    padding: 80px 0px;
+    position: relative;
+}
+
+section.slider .title {
+    margin-bottom: 60px;
+}
+
+section.slider .title h3 {
+    color: #141414;
+    font-size: 36px;
+}
+
+section.slider .carousel-inner {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.slider .carousel-indicators {
+    bottom: -65px;
+}
+
+section.slider .carousel-indicators li {
+    border: 1px solid #f16054;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+section.slider .carousel-indicators li.active {
+    background-color: #ef473a;
+}
+
+section.slider a.carousel-control-next, section.slider a.carousel-control-prev {
+    top: 96px;
+    border: 1px solid #f04f42;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+section.slider a i, section.slider a svg {
+    color: #cb2d3e;
+}
+
+section.qusetion {
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.qusetion .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 60px 0 80px 0;
+}
+
+section.qusetion .overlay .title {
+    margin-bottom: 60px;
+}
+
+section.qusetion .overlay .title h3 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+section.qusetion .overlay .card {
+    background-color: rgba(225, 225, 225, 0.2);
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+section.qusetion .overlay .card .card-header {
+    background: transparent;
+    border-bottom: 0px;
+}
+
+section.qusetion .overlay .card .card-body {
+    padding-top: 0px;
+}
+
+section.qusetion .overlay .card .card-header h5 a {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+section.qusetion .overlay .card .card-header h5 a i, section.qusetion .overlay .card .card-header h5 a svg {
+    position: absolute;
+    left: 16px
+}
+
+section.qusetion .overlay .card .card-body p {
+    color: #c9c9c9;
+    font-size: 15px;
+}
+
+section.qusetion .overlay .card .card-header h5 a.collapsed[aria-expanded="false"] .fa-angle-up {
+    transform: rotate(180deg);
+    transition: all 0.5 ease;
+}
+
+footer {
+    background-color: #232323;
+    padding-top: 60px;
+}
+
+footer .wedget-1 .title h4, footer .wedget-2 .title h4, footer .wedget-3 .title h4 {
+    color: #f4f8fb;
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+footer .wedget-1 .title, footer .wedget-2 .title, footer .wedget-3 .title {
+    border-bottom: 3px solid #292828;
+    position: relative;
+}
+
+footer .wedget-1 .title:after, footer .wedget-2 .title:after, footer .wedget-3 .title:after {
+    width: 90px;
+    height: 3px;
+    background-color: #933932;
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: 0px;
+    display: inline-block;
+}
+
+footer .wedget-1 p {
+    color: #757474;
+    font-size: 16px;
+    margin: 35px 0 90px 0;
+}
+
+footer .wedget ul li a, footer .wedget-1 ul {
+    padding-right: 0px;
+}
+
+footer .wedget ul li a, footer .wedget-1 ul li a {
+    background-color: #343637;
+    border: 1px solid #343637;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+footer .wedget-1 ul li a:hover {
+    background-color: #ef473a;
+    transition: 1s ease;
+}
+
+footer .wedget-1 ul li a i, footer .wedget-1 ul li a svg {
+    color: #ffffff;
+}
+
+footer .wedget-2 ul.twitter li p {
+    font-size: 13px;
+    color: #757474;
+    border-bottom: 3px solid #292828;
+    margin: 40px 0 20px 0;
+    padding-bottom: 20px;
+}
+
+footer .wedget-2 ul.twitter li p.no-border {
+    border-bottom: 0px;
+}
+
+footer .wedget-2 ul.twitter li i, footer .wedget-2 ul.twitter li svg {
+    color: #ef473a;
+    margin-left: 4px;
+}
+
+footer .wedget-3 form input {
+    background-color: #2c2b2b;
+    color: #ffffff;
+    border: 0px;
+    font-family: ar-font;
+    font-size: 14px;
+    margin: 35px 0 14px 0;
+    border-radius: 0px;
+}
+
+footer .wedget-3 form .error {
+    color: #f00;
+}
+
+footer .wedget-3 form button {
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #ef473a;
+    border-radius: 0px;
+}
+
+footer .copyright {
+    border-top: 3px solid #282828;
+}
+
+footer .copyright p {
+    font-size: 15px;
+    color: #757474;
+    line-height: 70px;
+}
+@media(max-width: 1199.98px) {
+    section.features .mobile-image {
+        width: 77%;
+        margin: 55px auto;
+    }
+
+}
+
+@media(max-width:991.98px) {
+    section.banner .overlay {
+
+        padding-top: 49px;
+
+    }
+    section.banner .overlay .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    section.features .mobile-image {
+
+        margin: 4px auto;
+
+    }
+    section.banner .overlay .banner-text button:last-child {
+        margin-right: 0px;
+    }
+    section.features .featur {
+        padding-top: 63px;
+    }
+    section.features .featur .media .media-body h5 {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+    section.features .featur .media .media-body p {
+        font-size: 10px;
+    }
+    section.features .featur .media i, section.features .featur .media svg {
+        height: 50px;
+        width: 50px;
+        padding: 9px;
+    }
+    section.features .mobile-image img{
+        width: 100%;
+    }
+    section.features .featur .media {
+        margin-bottom: 8px;
+    }
+    
+    section.features {
+        padding: 38px 0;
+    }
+    section.option .image img{
+        width: 100%;
+
+    }
+    section.option .options {
+        margin: 30px -6px 0 0;
+    }
+    section.slider a.carousel-control-next, section.slider a.carousel-control-prev {
+        top: 59px;
+    }
+    footer .wedget ul li a, footer .wedget-1 ul li a {
+        margin-bottom: 8px;
+    }
+    footer .wedget ul li a, footer .wedget-1 ul li a {
+
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    footer .wedget-2 ul.twitter li p {
+        font-size: 11px;
+
+
+        margin: 14px 0 13px 0;
+
+    }
+    footer .wedget-1 p {
+
+        font-size: 14px;
+        margin: 23px 0 64px 0;
+    }
+    
+
+}
+
+@media(max-width: 767.98px) {
+    section.banner .overlay {
+        padding-top: 49px;
+    }
+    section.banner .overlay .section-2 {
+        top: -137px;
+        text-align: center;
+    } 
+     section.option .image img {
+        margin-top: 30px;
+        position: absolute;
+        bottom: -693px;
+        right: 0;
+    } 
+    section.features {
+        padding: 0px 0px;
+    }
+    section.features .mobile-image {
+        margin: 44px auto;
+    }
+}
+
+@media(max-width: 575.98px) {
+    section.banner .overlay .images {
+        bottom: -594px;
+        right: 15%;
+    }
+    section.banner .overlay .section-2 {
+        top: -85px;
+        text-align: center;
+    }
+    section.banner .overlay .banner-text button:last-child {
+        margin-right: 0px;
+    }
+    section.banner .overlay {
+        padding: 20px 50px;
+    }
+}
